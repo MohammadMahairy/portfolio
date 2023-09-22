@@ -16,17 +16,24 @@ header .logo img {
   width: 100px;
 }
 header .logo {
-  width: 30%;
+  padding: 20px;
+  width: 40%;
 }
 header nav {
-  width: 70%;
+  width: 60%;
 }
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
 }
 header nav ul li a {
   text-decoration: none;
   color: #be9351;
+  font-size: 19px;
+  transition: 0.5s;
+}
+header nav ul li a:hover {
+  font-size: 23px;
+  color: #e5af10;
 }
